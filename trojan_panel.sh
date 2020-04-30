@@ -198,7 +198,7 @@ EOF
 	php composer-setup.php --install-dir=/usr/local/bin --filename=composer
 	curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
 	apt install -y nodejs
-	git clone https://github.com/trojan-gfw/trojan-panel.git
+	git clone https://github.com/DongfeiSay/trojan-panel.git
 	cd trojan-panel
 	composer install
 	npm install
